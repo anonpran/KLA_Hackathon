@@ -49,7 +49,7 @@ def milestone2(diameter,size,shift,dow):
         dfs(i,j-1,r,c,diameter)
         dfs(i,j+1,r,c,diameter)
 
-    res = dfs(reference_x,reference_y,r,c,diameter)
+    res = dfs(new_origin_x,new_origin_y,r,c,diameter)
 
     res+= "("+"new_origin_x"+")"+":"+"("+i+","+y+")"
     result.append(res)
