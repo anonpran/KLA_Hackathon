@@ -9,38 +9,9 @@ def milestone1(d,n,a):
     #using the angle calculting the line wrt to centre
     radius = d/2
     #print(radius)
-    """
-    res=[]
-    for i in range(n):
 
-        xi = radius*math.cos(a+(2*math.pi*i)/n)
-    #print(math.cos(0))
-    #print(xi)
-        yi = radius*math.sin(a+(2*math.pi*i)/n)
-        res.append([round(xi,4),round(yi)])
 
-    #print(yi)
-    print(res)
-    vector = np.array([d,0,0])
-    x = np.linspace(-radius,radius,30)
-    #print(x)
-    y = np.zeros(n)
-    z = np.zeros(n)
-
-    r = R.from_euler('z',a,degrees=True)
-    rotated_vector = r.apply(vector)
-    print(rotated_vector)
-    x_shift = 0
-    y_shift = 0
-    x = x-x_shift
-    y = y-y_shift
-    xr = (x * math.cos(a)) - (y * math.sin(a)) + x_shift
-    yr = (x * math.sin(a)) + (y * math.cos(a)) + y_shift
-
-    
-    print(xr,yr)"""
-
-        # Calculate the radius based on the given diameter
+    # Calculate the radius based on the given diameter
     radius = d / 2
 
     # Generate equidistant points on the x-axis
